@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <!-- PASO 1: permite que el navegador use el ancho real del celular. -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Video y guía | ACME</title>
+  <title>Video y guía | mWater</title>
   <!-- PASO 2: conectar este HTML con el archivo CSS compartido. -->
   <link rel="stylesheet" href="css/estilos.css">
   <!-- Este icono aparece en la pestaña del navegador. -->
@@ -15,7 +15,7 @@
 <!-- PASO 3: este header permanece visible con position: sticky en CSS. -->
 <header class="cabecera">
   <div class="contenedor barra">
-    <a class="marca" href="index.html"><img src="iconos/favicon.svg" alt="" width="42" height="42">ACME</a>
+    <a class="marca" href="index.html"><img src="iconos/favicon.svg" alt="" width="42" height="42">mWater</a>
     <!-- PASO 4: la lista principal se ordena horizontalmente con Flexbox. -->
     <nav aria-label="Navegación principal">
       <ul class="menu">
@@ -24,12 +24,12 @@
         <li>
           <!-- details abre el submenú con clic, Enter o toque; no necesita JS. -->
           <details class="desplegable">
-            <summary>Resolver</summary>
+            <summary>Gestionar</summary>
             <!-- Esta lista es el menú vertical desplegable. -->
             <ul class="submenu">
-              <li><a href="index.html#servicios">Servicios</a></li>
-              <li><a href="index.html#orientador">Ver objetos</a></li>
-              <li><a href="index.html#contacto">Solicitar devolución</a></li>
+              <li><a href="index.html#servicios">Funciones</a></li>
+              <li><a href="index.html#orientador">Ver sincronización</a></li>
+              <li><a href="index.html#contacto">Reportar avería</a></li>
             </ul>
           </details>
         </li>
@@ -40,32 +40,32 @@
     </nav>
   </div>
 </header>
-<main id="contenido" class="contenedor seccion"><p class="etiqueta">El contexto de nuestra propuesta</p><h1>Una comunidad también cuida lo que alguien olvidó.</h1>
+<main id="contenido" class="contenedor seccion"><p class="etiqueta">Guía de reportes hídricos</p><h1>Registrar una incidencia ayuda a cuidar el agua.</h1>
   <section class="dos-columnas" aria-labelledby="video-titulo"><div>
     <!-- PASO 9: video de referencia. El enlace alternativo siempre está disponible. -->
     <iframe
   class="video"
-  src="https://www.youtube.com/embed/gQBJfYlDOvA"
-  title="Objetivos de Desarrollo Sostenible"
+  src="https://www.youtube.com/embed/nxsk9i9SKHw"
+  title="Video oficial de introducción y uso de la plataforma mWater"
   referrerpolicy="strict-origin-when-cross-origin"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
   allowfullscreen>
 </iframe>
-    <p class="nota">Video general sobre los ODS de UNESCO en español. No presenta el servicio ficticio de ACME.</p><p><a href="https://www.youtube.com/watch?v=MCKH5xk8X-g" target="_blank" rel="noopener noreferrer">Abrir el video en YouTube</a> si no se reproduce aquí.</p></div>
-    <div><h2 id="video-titulo">De la feria a una pequeña red de cuidado</h2><p>Usamos el marco de los ODS como punto de partida para imaginar un servicio comunitario. ACME propone ayudar a las personas cuando una feria se traslada y pierden la referencia de dónde preguntar.</p><ol><li>Consulta una categoría de objeto.</li><li>Describe una característica ficticia.</li><li>Observa el siguiente paso de una solicitud simulada.</li></ol><a class="boton" href="index.html#orientador">Probar el recorrido</a></div>
+    <p class="nota">Video de introducción a la plataforma mWater, publicado por mWater (en inglés). Este sitio es un prototipo académico independiente.</p><p><a href="https://www.youtube.com/watch?v=nxsk9i9SKHw" target="_blank" rel="noopener noreferrer">Abrir el video en YouTube</a> si no se reproduce aquí.</p></div>
+    <div><h2 id="video-titulo">Cómo recorrer la demostración</h2><p>El objetivo de este prototipo es mostrar un flujo comprensible de reportes de incidentes hídricos. Sus estados y casos son ilustrativos; no están conectados a mWater ni a una entidad de atención de averías.</p><ol><li>Revisa los posibles estados de un reporte.</li><li>Selecciona el tipo de incidencia y describe el lugar.</li><li>Consulta la confirmación fija de demostración.</li></ol><a class="boton" href="index.html#orientador">Ver estados de reporte</a></div>
   </section></main>
 <!-- PASO FINAL: pie compartido por las páginas del sitio. -->
 <footer class="pie">
   <div class="contenedor">
-    <p><strong>ACME</strong> · Objetos que vuelven a casa</p>
-    <p>Contacto de ejemplo: hola@ejemplo.org</p>
+    <p><strong>mWater · Prototipo</strong> · Reportes de incidentes hídricos</p>
+    <p>Contacto: demostración académica sin recepción de reportes.</p>
     <nav class="redes" aria-label="Redes sociales de referencia">
       <!-- Son páginas generales de las redes; reemplazar por cuentas del proyecto. -->
       <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><img src="iconos/facebook.svg" alt="" width="24" height="24">Facebook</a>
       <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><img src="iconos/instagram.svg" alt="" width="24" height="24">Instagram</a>
       <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer"><img src="iconos/youtube.svg" alt="" width="24" height="24">YouTube</a>
     </nav>
-    <p>© 2026 ACME · Ejemplo educativo ficticio · <a href="FUENTES.txt">Créditos de recursos</a></p>
+    <p>© 2026 · Prototipo académico independiente · <a href="FUENTES.txt">Créditos de recursos</a></p>
   </div>
 </footer>
 </body>
