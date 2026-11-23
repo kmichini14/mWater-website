@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="css/estilos.css">
   <!-- Este icono aparece en la pestaña del navegador. -->
   <link rel="icon" type="image/svg+xml" href="iconos/favicon.svg">
+  <link rel="stylesheet" href="https://vdk-viber-runtime-prod.bot.botpress.host/edge/webchat.css" />
 </head>
 <body>
 <a class="saltar" href="#contenido">Saltar al contenido</a>
@@ -68,5 +69,13 @@
     <p>© 2026 · Prototipo académico independiente · <a href="FUENTES.txt">Créditos de recursos</a></p>
   </div>
 </footer>
+<script src="https://vdk-viber-runtime-prod.bot.botpress.host/edge/webchat.js"></script>
+<script>
+  fetch("https://vdk-viber-runtime-prod.bot.botpress.host/edge/bots/5d4e1164-6f57-4d83-88b3-2fb1a5aeffed/config")
+    .then((res) => res.json())
+    .then(({ webchat }) =>
+      VdkEdgeWebchat.mount({ ...webchat, mode: "bubble", baseUrl: "https://vdk-viber-runtime-prod.bot.botpress.host", botId: "5d4e1164-6f57-4d83-88b3-2fb1a5aeffed" })
+    )
+</script>
 </body>
 </html>
