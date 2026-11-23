@@ -48,57 +48,57 @@
 <main id="contenido">
   <!-- PASO 5: el inicio está en la sección, no en el header sticky. -->
   <section id="inicio" class="hero contenedor dos-columnas" aria-labelledby="titulo">
-    <div><p class="etiqueta">Monitoreo hídrico y gestión WASH</p>
-      <h1 id="titulo">El agua es vida.<br>Su gestión es clave.</h1>
-      <p>Una fuga sin atender en la comunidad. Un registro en campo sin conexión a Internet. En mWater te ayudamos a monitorear y cuidar el recurso hídrico.</p>
-      <a class="boton" href="#orientador">Ver estados</a>
-      <a class="enlace" href="recursos.html">Conocer la iniciativa</a>
-      <p class="nota">Caso de estudio UX orientado al ODS 6: Agua Limpia y Saneamiento.</p>
+    <div><p class="etiqueta">Reportes de incidentes hídricos</p>
+      <h1 id="titulo">Cada reporte cuenta.<br>Protejamos el agua.</h1>
+      <p>Una fuga en la calle, un grifo averiado o agua de apariencia inusual son incidencias que merecen atención. Explora cómo registrar y dar seguimiento a un reporte hídrico.</p>
+      <a class="boton" href="#orientador">Explorar estados</a>
+      <a class="enlace" href="recursos.html">Ver guía del proyecto</a>
+      <p class="nota">Prototipo académico de reportes hídricos, inspirado en el ODS 6. No recibe denuncias reales.</p>
     </div>
-    <figure class="postal"><img class="foto" src="imagenes/dia-mundial-agua_c.webp" alt="Gestión y cuidado del agua limpia" width="1000" height="667"><figcaption>Cada gota protegida asegura el futuro de la comunidad.</figcaption></figure>
+    <figure class="postal"><img class="foto" src="imagenes/dia-mundial-agua_c.webp" alt="Fuga de agua en una calle de un barrio urbano" width="1000" height="667"><figcaption>Detectar y comunicar una fuga es el primer paso para evitar pérdidas de agua.</figcaption></figure>
   </section>
   <section id="nosotros" class="seccion fondo"><div class="contenedor dos-columnas">
-    <img class="foto" src="imagenes/images.jpg" alt="Infraestructura hídrica y monitoreo en campo" width="1000" height="667" loading="lazy">
-    <div><p class="etiqueta">Plataforma abierta para agua y saneamiento</p><h2>No todo el desperdicio se ve a simple vista.</h2><p>mWater es una plataforma digital de acceso abierto orientada a democratizar la gestión de datos sobre agua, saneamiento e higiene (WASH) en comunidades y zonas rurales.</p><h3>Nuestra propuesta</h3><p>Visibilizar el estado de sincronización de datos en modo offline y facilitar el reporte geolocalizado de incidencias hídricas.</p><p>El proyecto se vincula directamente con el ODS 6 para garantizar el acceso a agua segura y reducir el desperdicio.</p></div>
+    <img class="foto" src="imagenes/images.jpg" alt="Inspector que documenta una tubería averiada en campo" width="1000" height="667" loading="lazy">
+    <div><p class="etiqueta">Contexto de la gestión hídrica</p><h2>Un incidente detectado merece seguimiento.</h2><p>La plataforma mWater permite recolectar y gestionar datos sobre agua, saneamiento e higiene (WASH). Este sitio es una demostración académica centrada en los reportes de incidencias hídricas.</p><h3>Nuestra propuesta</h3><p>Mostrar un recorrido de registro de incidencias y representar de forma didáctica posibles estados de sincronización de reportes.</p><p>El enfoque se relaciona con el ODS 6, que promueve el acceso al agua limpia y al saneamiento.</p></div>
   </div></section>
-  <section id="servicios" class="seccion contenedor"><p class="etiqueta">Un flujo en tres pasos</p><h2>Del “hay una fuga” al “ya está atendido”.</h2>
+  <section id="servicios" class="seccion contenedor"><p class="etiqueta">Un flujo en tres pasos</p><h2>De identificar una avería a darle seguimiento.</h2>
     <div class="tarjetas">
-      <article class="tarjeta"><span class="numero">01 / Detecta</span><h3>Ubica la incidencia</h3><p>Captura la posición GPS automática y evidencia fotográfica del daño en la red.</p><a href="#orientador">Ver estados</a></article>
-      <article class="tarjeta"><span class="numero">02 / Registra</span><h3>Clasifica y guarda</h3><p>Envía el reporte en menos de 3 pasos, incluso si trabajas sin señal de Internet.</p><a href="#contacto">Probar reporte</a></article>
-      <article class="tarjeta"><span class="numero">03 / Verifica</span><h3>Sigue tu ticket</h3><p>Consulta el estado de sincronización y seguimiento de tu reporte hídrico.</p><a href="recursos.html">Ver la guía</a></article>
+      <article class="tarjeta"><span class="numero">01 / Detecta</span><h3>Ubica la incidencia</h3><p>Identifica el tipo de incidente y describe dónde se encuentra el problema.</p><a href="#orientador">Ver estados</a></article>
+      <article class="tarjeta"><span class="numero">02 / Registra</span><h3>Clasifica y guarda</h3><p>Completa el formulario de ejemplo para conocer cómo se registraría una incidencia.</p><a href="#contacto">Probar reporte</a></article>
+      <article class="tarjeta"><span class="numero">03 / Verifica</span><h3>Sigue tu ticket</h3><p>Explora los estados ilustrativos de guardado, envío y recepción de un reporte.</p><a href="recursos.html">Ver la guía</a></article>
     </div>
   </section>
   <section id="orientador" class="seccion fondo"><div class="contenedor">
-    <p class="etiqueta">Propuesta UX · Visibilidad del estado del sistema</p><h2>¿Cómo está tu registro?</h2><p>Selecciona un estado de la cola de sincronización para conocer cómo mWater protege tus datos en campo.</p>
+    <p class="etiqueta">Prototipo UX · Estados de un reporte</p><h2>¿Qué puede ocurrir con un reporte?</h2><p>Selecciona un estado para ver cómo podría mostrarse un reporte en un sistema con sincronización. Esta sección es interactiva, pero utiliza datos ficticios.</p>
     
     <!-- PASO 7: mismo name, distintos id. Los radios controlan paneles con CSS. -->
-    <fieldset class="orientador"><legend>Estado de sincronización</legend>
+    <fieldset class="orientador"><legend>Estado de sincronización (simulado)</legend>
       <input type="radio" name="objeto" id="mochila" checked><label for="mochila">Pendiente</label>
       <input type="radio" name="objeto" id="libreta"><label for="libreta">Sincronizando</label>
       <input type="radio" name="objeto" id="abrigo"><label for="abrigo">Sincronizado</label>
       <div class="resultados">
-        <div class="respuesta mochila"><p class="etiqueta">Ticket AGUA-038421 · Modo Offline</p><h3>Registro guardado localmente en el dispositivo</h3><p>Sin conexión a Internet. Tus datos y fotografías están almacenados de forma segura en la memoria caché esperando señal.</p></div>
-        <div class="respuesta libreta"><p class="etiqueta">Cola de envío · En proceso</p><h3>Transmitiendo coordenadas GPS y evidencia</h3><p>Se detectó conexión. El sistema está enviando el reporte de incidencia hídrica al servidor central de mWater.</p></div>
-        <div class="respuesta abrigo"><p class="etiqueta">Confirmado · Estado: En revisión</p><h3>Reporte recibido por la cuadrilla técnica</h3><p>La información ya está en la nube. Las cuadrillas pueden ubicar la avería para reparar el desperdicio de agua.</p></div>
+        <div class="respuesta mochila"><p class="etiqueta">Ejemplo AGUA-038421 · Sin conexión</p><h3>Pendiente de enviar</h3><p>En una aplicación con modo sin conexión, un reporte pendiente podría permanecer en el dispositivo hasta recuperar acceso a Internet.</p></div>
+        <div class="respuesta libreta"><p class="etiqueta">Ejemplo · En proceso de envío</p><h3>Sincronización en curso</h3><p>Al recuperar la conexión, el sistema podría enviar los datos del reporte al servidor. Aquí solo se representa ese estado.</p></div>
+        <div class="respuesta abrigo"><p class="etiqueta">Ejemplo · Recibido para revisión</p><h3>Reporte listo para evaluación</h3><p>En un servicio operativo, el equipo responsable podría revisar la incidencia y decidir qué atención corresponde.</p></div>
         <a class="boton" href="#contacto">Ir al formulario de reporte</a>
       </div>
     </fieldset>
-    <p class="nota">Simulación de estados de cola de sincronización offline diseñada bajo principios de usabilidad.</p>
+    <p class="nota">Estados ilustrativos: esta página no guarda reportes ni se conecta con servidores de mWater.</p>
   </div></section>
-  <section id="proyectos" class="seccion contenedor"><p class="etiqueta">Impacto en la comunidad</p><h2>Gestión hídrica transparente.</h2><div class="tarjetas"><article class="tarjeta"><h3>Monitoreamos</h3><p>Mapeamos puntos de agua e infraestructuras críticas con datos abiertos.</p></article><article class="tarjeta"><h3>Ahorramos</h3><p>Promovemos el cierre de caños, duchas cortas y la reparación rápida de fugas.</p></article><article class="tarjeta"><h3>Conectamos</h3><p>Unimos a ciudadanos, investigadores y gestores para cuidar el agua limpia.</p></article></div></section>
-  <section id="galeria" class="seccion fondo"><div class="contenedor"><h2>Detrás de cada registro, una comunidad protegida.</h2><div class="galeria"><figure><img src="imagenes/mochila.jpg" alt="Trabajo de campo y monitoreo de agua" width="1000" height="667" loading="lazy"><figcaption>Recolección de datos en zonas rurales y urbanas</figcaption></figure><figure><img src="imagenes/feria.jpg" alt="Abastecimiento y cuidado del recurso hídrico" width="1000" height="667" loading="lazy"><figcaption>Acceso seguro al agua para todos</figcaption></figure></div></div></section>
-  <section id="testimonios" class="seccion contenedor"><blockquote>“Cerrar el caño a tiempo y reportar una fuga en la calle evita que se pierdan cientos de litros cada día”.</blockquote><p>Testimonio basado en nuestra investigación de usuarios sobre hábitos de ahorro de agua.</p></section>
+  <section id="proyectos" class="seccion contenedor"><p class="etiqueta">¿Por qué reportar incidencias?</p><h2>Información clara para actuar a tiempo.</h2><div class="tarjetas"><article class="tarjeta"><h3>Identificamos</h3><p>Una descripción precisa ayuda a localizar fugas, desbordes y averías.</p></article><article class="tarjeta"><h3>Priorizamos</h3><p>Clasificar los incidentes puede facilitar su evaluación y atención.</p></article><article class="tarjeta"><h3>Informamos</h3><p>El seguimiento visible permite comprender en qué etapa está cada caso.</p></article></div></section>
+  <section id="galeria" class="seccion fondo"><div class="contenedor"><h2>De la detección a la respuesta en campo.</h2><div class="galeria"><figure><img src="imagenes/mochila.jpg" alt="Personal técnico realizando mantenimiento de infraestructura de agua" width="1000" height="667" loading="lazy"><figcaption>Inspección y reparación de infraestructura hídrica</figcaption></figure><figure><img src="imagenes/feria.jpg" alt="Vecinos que conversan con personal sobre una incidencia de agua" width="1000" height="667" loading="lazy"><figcaption>Participación comunitaria ante problemas de abastecimiento</figcaption></figure></div></div></section>
+  <section id="testimonios" class="seccion contenedor"><blockquote>“Una incidencia bien descrita ayuda a que el problema sea visible y pueda evaluarse a tiempo”.</blockquote><p>Mensaje ilustrativo del propósito del proyecto; no corresponde a un testimonio real.</p></section>
   <section id="contacto" class="seccion fondo"><div class="contenedor dos-columnas">
-    <div><p class="etiqueta">HU-03 · Formulario de Reporte Hídrico.</p><h2>Reporta una avería en la red hídrica.</h2><p>Completa los campos para simular el envío geolocalizado de la incidencia y la obtención de un código de ticket único.</p><p class="nota">Simulación académica interactiva orientada al ODS 6.</p></div>
+    <div><p class="etiqueta">HU-03 · Formulario de reporte hídrico</p><h2>Describe un incidente hídrico.</h2><p>Completa los campos para recorrer el ejemplo de registro. El formulario no utiliza GPS ni envía datos: conduce a una página de confirmación de demostración.</p><p class="nota">Utiliza información ficticia: no se almacenan ni tramitan incidencias reales.</p></div>
     
     <!-- PASO 8: required valida campos. Sin name: no añadimos datos a la URL. -->
     <form action="confirmacion.html" method="get" class="formulario">
-      <label for="nombre">Nombre del gestor o usuario</label><input id="nombre" type="text" required maxlength="60" placeholder="Ejemplo: Ana" autocomplete="off">
-      <label for="correo">Correo institucional o de contacto</label><input id="correo" type="email" required placeholder="ana@example.com" autocomplete="off">
-      <label for="actividad">Tipo de incidencia</label><select id="actividad" required><option value="">Selecciona una avería</option><option>Fuga en tubería</option><option>Grifo dañado</option><option>Contaminación de agua</option></select>
-      <label for="detalle">Descripción y detalle de la ubicación</label><textarea id="detalle" required minlength="8" maxlength="240" rows="3" placeholder="Ej. Tubería rota cerca al parque principal, pérdida constante de agua."></textarea>
-      <div><input id="acepto" type="checkbox" required> <label for="acepto">Confirmo el uso de geolocalización GPS automática.</label></div>
-      <button type="submit" class="boton">Enviar reporte y obtener ticket</button>
+      <label for="nombre">Nombre de quien reporta</label><input id="nombre" type="text" required maxlength="60" placeholder="Ejemplo: Ana" autocomplete="off">
+      <label for="correo">Correo de contacto (de ejemplo)</label><input id="correo" type="email" required placeholder="ana@example.com" autocomplete="off">
+      <label for="actividad">Tipo de incidencia</label><select id="actividad" required><option value="">Selecciona el tipo de incidente</option><option>Fuga en tubería</option><option>Grifo o caño averiado</option><option>Posible contaminación del agua</option></select>
+      <label for="detalle">Descripción del incidente y ubicación aproximada</label><textarea id="detalle" required minlength="8" maxlength="240" rows="3" placeholder="Ej. Fuga visible junto al parque principal, cerca de la esquina."></textarea>
+      <div><input id="acepto" type="checkbox" required> <label for="acepto">Entiendo que esta demostración no recopila mi ubicación ni envía el reporte.</label></div>
+      <button type="submit" class="boton">Ver confirmación de ejemplo</button>
     </form>
   </div></section>
 </main>
@@ -108,51 +108,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mWater - Estaciones Hídricas</title>
+    <title>mWater - Incidentes hídricos</title>
     <!-- Vinculamos el CSS de tu carpeta -->
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
     <main class="contenedor">
-        <h1>Listado de Estaciones Hídricas</h1>
+        <h1>Ejemplos de incidentes hídricos</h1>
         
         <!-- Barra de búsqueda -->
         <div class="contenedor-buscador">
-            <input type="text" id="buscador" class="buscador" placeholder="Buscar estación (ej. Norte)...">
+            <input type="text" id="buscador" class="buscador" placeholder="Buscar incidente (ej. fuga)...">
         </div>
 
         <!-- Contenedor de las tarjetas -->
         <div id="contenedor-estaciones" class="grid-estaciones">
             
             <article class="tarjeta-estacion">
-                <img src="imagenes/images.jpg" alt="Estación Norte">
+                <img src="imagenes/images.jpg" alt="Inspector documentando una fuga en tubería">
                 <div class="info">
-                    <h3>Estación Norte 01</h3>
-                    <p>Estado: Activa | Nivel: Normal</p>
+                    <h3>Fuga en tubería · Sector Norte</h3>
+                    <p>Reporte: Pendiente | Tipo: Fuga</p>
                 </div>
             </article>
 
             <article class="tarjeta-estacion">
-                <img src="imagenes/dia-mundial-agua_c.webp" alt="Estación Sur">
+                <img src="imagenes/dia-mundial-agua_c.webp" alt="Fuga de agua en vía pública">
                 <div class="info">
-                    <h3>Estación Sur Occidental</h3>
-                    <p>Estado: Mantenimiento | Nivel: Alto</p>
+                    <h3>Pérdida de agua · Sector Sur</h3>
+                    <p>Reporte: En revisión | Tipo: Fuga</p>
                 </div>
             </article>
 
             <article class="tarjeta-estacion">
-                <img src="imagenes/Stilles_Mineralwasser.jpg" alt="Estación Valle">
+                <img src="imagenes/Stilles_Mineralwasser.jpg" alt="Personal técnico atendiendo infraestructura hidráulica">
                 <div class="info">
-                    <h3>Estación Valle Norte</h3>
-                    <p>Estado: Activa | Nivel: Bajo</p>
+                    <h3>Tubería dañada · Zona Valle</h3>
+                    <p>Reporte: En atención | Tipo: Avería</p>
                 </div>
             </article>
 
             <article class="tarjeta-estacion">
-                <img src="imagenes/feria.jpg" alt="Estación Central">
+                <img src="imagenes/feria.jpg" alt="Atención comunitaria por problemas de agua">
                 <div class="info">
-                    <h3>Estación Central</h3>
-                    <p>Estado: Activa | Nivel: Normal</p>
+                    <h3>Falta de agua · Sector Centro</h3>
+                    <p>Reporte: Pendiente | Tipo: Abastecimiento</p>
                 </div>
             </article>
       </div></section>
@@ -166,15 +166,15 @@
 <!-- PASO FINAL: pie compartido por las páginas del sitio. -->
 <footer class="pie">
   <div class="contenedor">
-    <p><strong>mWater ODS6</strong> · Cada gota cuenta, cada acción conecta.</p>
-    <p>Contacto : mWater@YakuNet.org</p>
+    <p><strong>mWater ODS6</strong> · Reportes de incidencias y cuidado del agua.</p>
+    <p>Contacto: prototipo académico sin recepción de reportes.</p>
     <nav class="redes" aria-label="Redes sociales de referencia">
       <!-- Son páginas generales de las redes; reemplazar por cuentas del proyecto. -->
       <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><img src="iconos/facebook.svg" alt="" width="24" height="24">Facebook</a>
       <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><img src="iconos/instagram.svg" alt="" width="24" height="24">Instagram</a>
       <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer"><img src="iconos/youtube.svg" alt="" width="24" height="24">YouTube</a>
     </nav>
-    <p>© 2026 mWater Perú · Ejemplo educativo ficticio · <a href="FUENTES.txt">UPC</a></p>
+    <p>© 2026 · Prototipo académico independiente · <a href="FUENTES.txt">Créditos y fuentes</a></p>
   </div>
 </footer>
   <script src="js/menu.js" defer></script>
